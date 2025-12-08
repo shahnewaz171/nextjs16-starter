@@ -3,12 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "predev": "next lint",
+    "predev": "eslint . --ext .js,.jsx,.ts,.tsx",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
