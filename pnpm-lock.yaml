@@ -15,7 +15,7 @@ importers:
         specifier: ^16.5.0
         version: 16.5.0
       next:
-        specifier: 16.0.10
+        specifier: ^16.0.10
         version: 16.0.10(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       react:
         specifier: ^19.2.3
